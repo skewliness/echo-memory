@@ -27,7 +27,7 @@ from echo import MemorySystem
 
 # Initialize / 初始化
 memory = MemorySystem(
-    storage_path="~/.memory-tree.json",
+    storage_path="~/.memory.json",
     vector_db_enabled=True,
     decay_schedule="daily"
 )
@@ -37,7 +37,7 @@ memory = MemorySystem(
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
-| `storage_path` | str | `~/.memory-tree.json` | Path to memory storage file |
+| `storage_path` | str | `~/.memory.json` | Path to memory storage file |
 | `vector_db_enabled` | bool | `True` | Enable vector database |
 | `decay_schedule` | str | `"daily"` | Temperature decay schedule |
 
@@ -246,7 +246,7 @@ Search memories associated with a project.
 
 ```python
 results = memory.search_by_project(
-    project="Project A",
+    project="E-Commerce",
     limit=20
 )
 ```
@@ -369,7 +369,7 @@ associations = memory.get_associations(memory_id="mem_001")
 {
     "links": ["mem_002", "mem_003"],
     "triggers": ["AI", "optimization"],
-    "projects": ["Project A"],
+    "projects": ["E-Commerce"],
     "topics": ["Architecture"]
 }
 ```
@@ -403,7 +403,7 @@ Process an event to wake relevant memories.
 ```python
 woken_memories = memory.on_event({
     "type": "project_access",
-    "project": "2FA",
+    "project": "E-Commerce",
     "action": "wakeup_relevant_memories"
 })
 ```
@@ -545,7 +545,7 @@ memory.access(mem_id)
 # Project event / プロジェクトイベント
 memory.on_event({
     "type": "project_access",
-    "project": "AuthSystem"
+    "project": "E-Commerce"
 })
 
 # Get stats / 統計取得
