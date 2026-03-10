@@ -4,7 +4,7 @@
 
 ---
 
-## 🌍 Language / 语言 / 言語
+## 🌍 Language 
 
 **Please select your language / 请选择您的语言 / 言語を選択してください:**
 
