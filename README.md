@@ -1,6 +1,6 @@
 # Echo - Brain-Like Memory System
 
-> **记忆的回响，永不消散 / Memory echoes, never fade / 記憶の響き、決して消えない**
+> **记忆的回响，永不消散**
 
 ---
 
@@ -14,27 +14,23 @@
 
 ---
 
-## 🧠 Quick Overview / 快速概览 / クイック概要
-
-**Echo** is an intelligent memory management system that simulates human brain memory mechanisms.
+## 🧠 快速概览
 
 **Echo** 是一个模拟人类大脑记忆机制的智能记忆管理系统。
 
-**Echo** は人間の脳記憶メカニズムをシミュレートしたインテリジェント記憶管理システムです。
+### 核心特性
 
-### Core Features / 核心特性 / コア機能
-
-- 🌡 **Temperature System** - Memory heat naturally decays / 温度系统 - 记忆热度自然衰减 / 温度システム - 記憶の熱が自然に減衰
-- 🔗 **Association Network** - Auto-linking memories / 联想网络 - 记忆自动关联 / 連想ネットワーク - 記憶が自動的にリンク
-- 🔄 **Event Triggering** - Wake memories by events / 事件触发 - 通过事件唤醒记忆 / イベントトリガー - イベントで記憶を呼び覚ます
-- 💾 **Never Forget** - Permanent storage / 永不遗忘 - 记忆永久保存 / 決して忘れない - 記憶を永久保存
-- 🔍 **Smart Search** - Multi-dimensional search / 智能搜索 - 多维度搜索 / スマート検索 - 多次元検索
+- 🌡 **温度系统 - 记忆热度自然衰减**
+- 🔗 **联想网络 - 记忆自动关联** 
+- 🔄 **E事件触发 - 通过事件唤醒记忆** 
+- 💾 **永不遗忘 - 记忆永久保存** 
+- 🔍 **智能搜索 - 多维度搜索** - 
 
 ---
 
-## 🚀 Quick Start / 快速开始 / クイックスタート
+## 🚀快速开始
 
-### Installation / 安装 / インストール
+### 安装
 
 ```bash
 # Clone the repository
@@ -45,7 +41,7 @@ cd echo-memory
 pip install -r requirements.txt
 ```
 
-### Basic Usage / 基本使用 / 基本的な使い方
+### 基本使用 
 
 ```python
 from echo import MemorySystem
@@ -70,14 +66,7 @@ memory.access(memory_id)
 
 ---
 
-## 📚 Documentation / 文档 / ドキュメント
-
-| Document | Description |
-|----------|-------------|
-| [System Design](docs/SYSTEM_DESIGN.md) | Architecture & Design Philosophy |
-| [API Reference](docs/API.md) | Complete API Documentation |
-| [Implementation Guide](docs/IMPLEMENTATION.md) | Implementation Details |
-| [Best Practices](docs/BEST_PRACTICES.md) | Usage Recommendations |
+## 📚  文档 
 
 | 文档 | 说明 |
 |------|------|
@@ -86,26 +75,13 @@ memory.access(memory_id)
 | [实现指南](docs/IMPLEMENTATION.md) | 实现细节 |
 | [最佳实践](docs/BEST_PRACTICES.md) | 使用建议 |
 
-| ドキュメント | 説明 |
-|-----------|------|
-| [システム設計](docs/SYSTEM_DESIGN.md) | アーキテクチャと設計理念 |
-| [APIリファレンス](docs/API.md) | 完全なAPIドキュメント |
-| [実装ガイド](docs/IMPLEMENTATION.md) | 実装の詳細 |
-| [ベストプラクティス](docs/BEST_PRACTICES.md) | 使用推奨事項 |
-
----
-
-## 📄 License / 许可证 / ライセンス
-
-MIT License - See [LICENSE](LICENSE) for details.
+## 📄  许可证 
 
 MIT 许可证 - 详见 [LICENSE](LICENSE)
 
-MIT ライセンス - 詳しくは [LICENSE](LICENSE) を参照してください
-
 ---
 
-## 🌟 Star History / 星标历史 / スター履歴
+## 🌟 星标历史
 
 If you find this project helpful, please consider giving it a star ⭐
 
@@ -115,4 +91,4 @@ If you find this project helpful, please consider giving it a star ⭐
 
 ---
 
-**Echo** - Memory echoes, never fade / 记忆的回响，永不消散 / 記憶の響き、決して消えない 🌀
+**Echo** - 记忆的回响，永不消散  🌀
