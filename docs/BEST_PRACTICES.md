@@ -96,8 +96,8 @@ Important caveats or warnings.
 
 ```python
 memory.create(
-    title="Production API - Claude",
-    content="Endpoint: https://api.anthropic.com\nToken: sk-ant-...",
+    title="Production API - Service Name",
+    content="Endpoint: https://api.example.com\nToken: xyz-123...",
     category="config",
     priority="P0",
     permanent=True
@@ -427,12 +427,12 @@ memory.create(
 # When accessing a project / 访问项目时 / プロジェクトアクセス時
 memory.on_event({
     "type": "project_access",
-    "project": "E-Commerce",
+    "project": "MyProject",
     "action": "wakeup_relevant_memories"
 })
 
-# All memories related to E-Commerce become active
-# / 所有与电商相关的记忆变活跃 / Eコマース関連のすべての記憶がアクティブに
+# All memories related to MyProject become active
+# / 所有与该项目相关的记忆变活跃
 ```
 
 ---
