@@ -1,0 +1,7 @@
+# Echo Memory System
+
+echo/
+├── __init__.py           # Package initialization
+├── core.py               # Core MemorySystem class
+├── vector.py             # Vector search engine
+└── cli.py                # Command-line interface
