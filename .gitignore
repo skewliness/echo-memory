@@ -1,0 +1,38 @@
+# Local data
+*.db
+*.sqlite
+*.sqlite3
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Echo local storage
+~/.echo-memory/
+.echo-memory/
+
+# Vector database
+*.lance/
+vector_db/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Test output
+test_*.py
+output/
