@@ -36,3 +36,4 @@ Thumbs.db
 # Test output
 test_*.py
 output/
+*.egg-info/
